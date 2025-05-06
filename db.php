@@ -1,5 +1,5 @@
 <?php
-// Ustawienia połączenia — dostosuj do swojej bazy
+
 $host = '127.0.0.1';
 $db   = 'dbs253';
 $user = 's253';
