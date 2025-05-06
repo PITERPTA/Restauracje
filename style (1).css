@@ -1,0 +1,61 @@
+/* Główne ustawienia i kolory */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+header {
+  background-color: #2c3e50;
+  padding: 20px;
+  color: #ecf0f1;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 8px 12px;
+  color: #ecf0f1;
+  text-decoration: none;
+  border-radius: 4px;
+}
+nav a.active,
+nav a:hover {
+  background-color: #e74c3c;
+}
+
+/* Główna treść */
+main {
+  padding: 20px;
+}
+h2 {
+  color: #34495e;
+  margin-top: 0;
+}
+
+/* Tabele */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #bdc3c7;
+}
+th {
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+tr:hover {
+  background-color: #f2f2f2;
+}
