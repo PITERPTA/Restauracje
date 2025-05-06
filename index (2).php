@@ -3,7 +3,6 @@ require 'db.php';
 
 $id = $_GET['id'] ?? 'home';
 
-// nagłówek
 ?>
 <!DOCTYPE html>
 <html lang="pl">
